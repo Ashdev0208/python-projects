@@ -51,5 +51,5 @@ while True:
     else:
         student_name = input(f"please your {value} student name: ")
         student_grade = input(f"please write your {value} student grade: ")
-        students += f"{value} -- {student_name}: {student_grade}"
+        students += f"{value} -- {student_name}: {student_grade}; "
 print(students)
